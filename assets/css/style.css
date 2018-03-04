@@ -1,0 +1,311 @@
+
+*{margin: 0;padding: 0;}
+body{overflow-y: auto !important;min-height: 100%;position: relative;font-family: 'Open Sans' !important;}
+
+/*scrollbar*/
+::-webkit-scrollbar{width: 8px;height:8px;}
+/* Track */
+::-webkit-scrollbar-track{background: #f4f4f4;}
+/* Handle */
+::-webkit-scrollbar-thumb{background:#394c70; border-radius:0px;}
+::-webkit-scrollbar-thumb:window-inactive{background: #eaeaea;}
+/*selection*/
+::-moz-selection{color: #fff;background: #394c70;}
+::selection{color: #fff;background:#394c70;}
+
+/* ****************************************************************** */
+
+/* *--------* Header *---------* */
+/* **** Nav **** */
+.NavBlock{background: #fff;border: none;margin: 0;}
+.NavBlock .navbar-header img{width: 100%;height: 28px;}
+.NavBlock .navbar-nav a{font-family: 'Open Sans';font-size: 16px;font-weight: normal;font-style: normal;font-stretch: normal;line-height: normal;letter-spacing: normal;text-align: center;color: #394c70!important;}
+.Ar{font-family: 'Cairo' !important;padding: 10px 15px !important;}
+.NavBlock .navbar-right .dropdown-menu{left: 0;margin: 0;border: 0;}
+.NavBlock .navbar-right .dropdown-menu a{text-align: left;}
+.NavBlock .navbar-nav li.active a, .NavBlock .navbar-nav li.active a:focus{background: #fff;font-weight: bold;color: #002957;}
+/* app section */
+
+.TopSection {background-image: url(../img/hero-img.png);background-position: top;background-repeat: no-repeat;background-size: cover;width: 100%;height: 800px;padding-top: 60px;}
+.TopSection .txtBlock{color: #fff;padding-left: 50px;position: relative;}
+.TopSection .txtBlock h1{font-size: 50px;font-weight: 100;font-style: normal;font-stretch: normal;line-height: normal;letter-spacing: -0.7px;margin-bottom: 25px;}
+.TopSection .txtBlock p{font-size: 16px;font-weight: normal;font-style: normal;font-stretch: normal;line-height: 1.88;letter-spacing: -0.5px;width: 85%;margin-bottom: 40px;}
+.TopSection .txtBlock .bottomTxt{position: absolute;top: 400px;}
+.TopSection .txtBlock .bottomTxt .fab{font-size: 30px;margin: 0 5px;vertical-align: top;}
+.MainBtn{border-radius: 4px;background-color: #ffd16a;font-size: 21px;font-weight: bold;font-style: normal;font-stretch: normal;line-height: normal;letter-spacing: -1.2px;text-align: center;color: #003366;padding: 10px 50px;border: none;outline: none;transition: all 0.2s ease-in-out;-webkit-transition: all 0.2s ease-in-out;-moz-transition: all 0.2s ease-in-out;-ms-transition: all 0.2s ease-in-out;-o-transition: all 0.2s ease-in-out;opacity: 1;}
+.MainBtn:hover{opacity: 0.9;}
+.TopSection .MobileBlock{position: relative;}
+.TopSection .MobileBlock .silver{position:absolute;top: 100px;left: 100px;}
+
+/* ****************************************************************** */
+
+/* book Section */
+
+.paymentSection{padding: 50px 0;}
+.paymentSection .title{font-size: 18px;font-weight: bold;font-style: normal;font-stretch: normal;line-height: 1.67;color: #294272;margin: 20px 0px;}
+.paymentSection p{ font-size: 16px;font-weight: normal;font-style: normal;font-stretch: normal;line-height: 1.88;letter-spacing: -0.5px;text-align: left;color: #333333;}
+
+/* offer Section */
+
+.offerSection{background-image: url(../img/bg.jpg);background-position: top;background-repeat: no-repeat;background-size: cover;padding: 60px 0;}
+.offerSection .block p{ font-size: 32px;font-weight: normal;font-style: normal;font-stretch: normal;line-height: normal;letter-spacing: -1px;text-align: center;color: #fff;text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);margin: -20px 0 0 0;}
+.offerSection .block p:first-child{font-size: 38px;}
+.offerSection .block .txt{font-size: 110px;font-weight: bold;font-style: normal;font-stretch: normal;line-height: normal;letter-spacing: -2.3px;text-align: center;text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);}
+.offerSection .block .txt span{color: #ffd16a;}
+.offerSection .MainBtn{margin-top: 60px;}
+/* book Section */
+
+.bookSection{}
+.bookSection .block{display: table;padding: 60px 0;}
+.bookSection .block .txt{display: table-cell;vertical-align: middle;width: 50%;}
+.bookSection .block h1{font-size: 50px;font-weight: 300;font-style: normal;font-stretch: normal;line-height: normal;letter-spacing: -0.7px;color: #294272;}
+.bookSection .block p{  font-size: 16px;font-weight: normal;font-style: normal;font-stretch: normal;line-height: 1.88;letter-spacing: -0.5px;color: #333333;}
+.bookSection .MobileBlock{position:  relative;}
+.bookSection .MobileBlock:before{content: '';width: 243px;height: 432px;background-color: #333333;box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.65);display:  block;position:  absolute;top: 75px;border: 2px solid #fff;left: -87px;}
+.bookSection .BlackIphone img{margin: auto;}
+.bookSection .BlackIphone:before{width: 230px;left: 40px;}
+.bookSection .BlackIphone:after{content: '';width: 230px;height: 432px;background-color: #333333;box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.65);display:  block;position:  absolute;top: 75px;border: 2px solid #fff;right:40px;}
+.bookSection .IphoneBlock{position: relative;}
+.bookSection .IphoneBlock .black{position: absolute;top: 78px;left: -108px;}
+.bookSection .BottomBlock{box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.25);padding: 28px;width: 83%;margin: 90px auto;display: flex;align-items: center;justify-content: space-around;}
+
+.bookSection .BottomBlock h1{ font-size: 36px;font-weight: 300;font-style: normal;font-stretch: normal;line-height: 1.17;letter-spacing: -1.5px;color: #294272;display: flex;width: 37%;align-items: center;position: relative;}
+.bookSection .BottomBlock h1:after{content: '';width: 1px;height: 100%;background: #979797;position: absolute;right: 0;top: 0;}
+.bookSection .BottomBlock h1 img{margin-right: 15px;}
+.bookSection .BottomBlock p{font-size: 16px;font-weight: normal;font-style: normal;font-stretch: normal;line-height: 1.88;letter-spacing: -0.4px;display: inline-block;color: #333333;width: calc(100% - 23em);}
+
+/* App */
+
+.appSection{background-image: url(../img/module-bg.png);background-size: cover;background-repeat: no-repeat;color: #fff;padding: 50px 0;}
+.appSection h1{  font-size: 50px;font-weight: 300;letter-spacing: -0.5px;}
+.appSection p{font-size: 21px;font-weight: 100;line-height: 1.71;letter-spacing: -0.5px;width: 55%;margin: 40px auto 50px auto;}
+.PlayBtn{font-size: 0;width: 80px;height: 80px;background: transparent;border: 2px solid #fff;border-radius: 50%;position: relative;outline: none;transition: all 0.3s ease-in-out;-webkit-transition: all 0.3s ease-in-out;-moz-transition: all 0.3s ease-in-out;-ms-transition: all 0.3s ease-in-out;-o-transition: all 0.3s ease-in-out;}
+.PlayBtn:before{content: "";width: 0;height: 0;border-top: 14px solid transparent;border-left: 20px solid #fff;border-bottom: 14px solid transparent;margin-left: 6px;}
+.PlayBtn:hover{background: rgba(255, 255, 255, 0.3)}
+
+/* features App */
+
+.featuresApp{height: 1000px;}
+.featuresApp .title{font-size: 50px;font-weight: 300;font-style: normal;font-stretch: normal;line-height: normal;letter-spacing: -0.7px;text-align: center;color: #71c8f0;margin: 75px 0;}
+.featuresApp h2{font-size: 18px;font-weight: bold;font-style: normal;font-stretch: normal;line-height: 1.67;letter-spacing: -0.7px;text-align: left;color: #294272;position: relative;}
+.featuresApp h2:before{content: ''; width: 80px;height: 10px;background-color: #ffcc33;display: block;margin-bottom: 15px;}
+.featuresApp p{font-size: 16px;font-weight: normal;font-style: normal;font-stretch: normal;line-height: 1.88;letter-spacing: -0.5px;text-align: left;color: #333333;}
+.featuresApp .AppBlock {position: relative;height: 500px;}
+.FlightBlock, .HotelBlock, .PayBlock, .VisaBlock{position: absolute;width: 33%;padding-bottom: 10px;}
+.FlightBlock{top:0;left: 0;border-bottom: 1px solid #979797;}
+.HotelBlock{top:100%;left: 0;border-bottom: 1px solid #979797;width: 50%;}
+.HotelBlock p{width: 66%;}
+.HotelBlock:after{content: '';width: 1px;height: 340px;display: block;background-color: #979797;position: absolute;top: -145px;z-index: -1;right: 0;}
+.PayBlock{top: 0;right: 0;}
+.PayBlock:before{content: '';width: 1px;height: 100%;display: block;background-color: #979797;position: absolute;left: -19px;top: 55px;z-index: -1;}
+.VisaBlock{top: 100%;right: 0;margin-top: 40px;}
+.VisaBlock:before{content: '';width: 1px;height: 250px;display: block;background-color: #979797;position: absolute;left: -19px;top: -81px;z-index: -1;}
+.IphonImgs{position: absolute;top:142px;display: flex;justify-content: center;z-index: 100;}
+.IphonImgs img{position: relative;}
+.IphonImgs img:nth-child(1){right: -330px;z-index: 10;}
+.IphonImgs img:nth-child(2){}
+.IphonImgs img:nth-child(3){left: -330px;z-index: -1;}
+
+/* Download App */
+.DownloadApp{background-color: #71c8f0;padding: 50px 0;color: #ffffff;    margin: 60px 0;}
+.DownloadApp h1{font-size: 48px;font-weight: 300;font-style: normal;font-stretch: normal;line-height: normal;letter-spacing: -0.6px;}
+.DownloadApp p{ font-size: 21px;font-weight: 100;line-height: 1.43;letter-spacing: -0.9px;text-transform: uppercase;}
+.DownloadApp a{display: inline-block;width: 300px;padding: 0 10px;margin-top: 65px;}
+
+/* Update Section */
+.UpdateSection{margin: 10% 0;}
+.UpdateSection .block{box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.25);padding: 80px 0;width: 83%;display: flex;margin: 0 auto;}
+.UpdateSection .block .Img{position: relative;}
+.UpdateSection .block .Img img{position: absolute;top: -30px;right: 0;}
+.UpdateSection h1{font-size: 50px;font-weight: 300;letter-spacing: -0.5px;color: #294272;margin-bottom: 25px;}
+.UpdateSection p{font-size:18px;font-weight: normal;line-height: 1.71;letter-spacing: -0.5px;color: #333333;margin-bottom: 40px;}
+
+/* SignUp Section */
+.SignUpSection{border-top: 1px solid #ccc;padding: 20px 0;}
+.SignUpSection h1{font-size: 30px;font-weight: bold;color: #465b83;}
+.SignUpSection p{font-family: 'Montserrat';font-size: 20px;line-height: 1.4;letter-spacing: 0.1px;color: #233d5e;width: 80%;}
+.SignUpSection .SubBtn{background-image: linear-gradient(to bottom, #f8d588, #f3b129);font-size: 15px;padding: 12px 30px;}
+.SignUpSection .form-inline{margin-top: 54px;text-align: right;}
+
+/* GetApp Section */
+.GetAppSection{background-color: #1a2a3d;color: #fff;position:  relative;padding: 40px 0;}
+.GetAppSection:after{content:'';width: 100%;height: 4px;background-image: linear-gradient(to top, #61b8fa, #1cf78c);display:block;position: absolute;top: 100%;}
+.GetAppSection .DownloadIcon{width: 20%;display:  inline-block;vertical-align: top;margin-right: 15px;}
+.GetAppSection h1{font-family: Montserrat;font-size: 30px;font-weight: 600;line-height: 1.1;letter-spacing: 7.5px;width: 185px;display:  inline-block;margin: 0;}
+.GetAppSection ul{list-style: none;}
+.GetAppSection ul li:before{content: '';background-image: url(../img/checkmark-summer-sky.png);display: inline-block;width: 26px;height: 18px;background-position:  center;background-size: contain;background-repeat:  no-repeat;vertical-align:  top;margin-right:  11px;}
+.GetAppSection ul li{ font-family: 'Montserrat';font-size: 19px;font-weight: 300;font-style: normal;font-stretch: normal;line-height: normal;letter-spacing: normal;margin-bottom: 25px;margin-top: 10px;}
+.GetAppSection p{font-family: "Montserrat";font-size: 30px;font-weight: 600;line-height: normal;letter-spacing: normal;}
+.GetAppSection a{display:  inline-block;width: 40%;margin-top: 20px;}
+/* ******************************************************************************* */
+
+/* Footer */
+footer{padding: 40px 0;}
+.SocialBlock{list-style: none;text-align: right;}
+.SocialBlock li{display: inline-block;}
+.SocialBlock a{text-decoration: none;color: #fff; width: 40px;height: 40px;background-color: #002957;display: inline-block;border-radius: 50%;margin: 4px;text-align: center;line-height: 40px;font-size: 18px;transition: all 0.2s ease-in-out;-webkit-transition: all 0.2s ease-in-out;-moz-transition: all 0.2s ease-in-out;-ms-transition: all 0.2s ease-in-out;-o-transition: all 0.2s ease-in-out;transform: translateY(0);}
+.SocialBlock a:hover{transform: translateY(-8px);}
+.Num{font-family: 'Montserrat';font-size: 25px;letter-spacing: -0.5px;color: #002957;margin-top: 5px;}
+.Num img{margin-right: 10px;}
+
+.FooterMenu{list-style: none;display: flex;justify-content: space-between;margin: 60px 0;}
+.FooterMenu a{font-family: Montserrat;font-size: 18px;font-weight: normal;letter-spacing: -1px;color: #002957;text-decoration: none;transition: all 0.2s ease-in-out;-webkit-transition: all 0.2s ease-in-out;-moz-transition: all 0.2s ease-in-out;-ms-transition: all 0.2s ease-in-out;-o-transition: all 0.2s ease-in-out;padding: 10px 25px;border: 2px solid transparent;border-radius: 25px;}
+.FooterMenu a:hover{border: 2px solid #3023ae;}
+.FooterMenu .active{border: 2px solid #3023ae;}
+footer .links{list-style: none;display: flex;justify-content: center;clear: both;margin: 25px 0;}
+footer .links a{ font-family: 'Montserrat';font-size: 15px;font-weight: normal;letter-spacing: -1px;color: #002957;text-decoration: none;padding: 5px;margin: 10px;display: inline-block;}
+footer .links a:after {content: '';display: block;width: 0;height: 1px;background: #002957;transition: width .3s;-moz-transition: width .3s;-webkit-transition: width .3s;-o-transition: width .3s;-ms-transition: width .3s;}
+footer .links a:hover:after {width: 100%;}
+
+/* ***************************************************************************** */
+/* media queries */
+@media (max-width : 1199px) {
+    .TopSection .txtBlock {padding-left: 80px;}
+    .TopSection .txtBlock h1 {font-size: 40px;}
+    .bookSection .block .txt {width: 40%;}
+    .IphonImgs {top: 132px;}
+    .featuresApp .AppBlock {height: 467px;}
+    .SignUpSection .SubBtn {padding: 12px 15px;}
+    .FooterMenu a {font-size: 17px;padding: 10px 20px;}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .NavBlock .container, .TopSection .container, .bookSection .container, .featuresApp .container, .SignUpSection .container{width: 100%;}
+    .NavBlock .navbar-nav a {padding-left: 4px;font-size: 15px;}
+    .navbar-brand{padding: 15px 0px;}
+    .TopSection .MobileBlock .silver {position: absolute;top: 80px;left: 80px;}
+    .paymentSection{padding-top: 0;}
+    .bookSection .MobileBlock:before {top: 75px;left: -60px;}
+    .bookSection .BlackIphone:before {left: 20px;width: 45%;}
+    .bookSection .BlackIphone:after {right: 15px;width: 45%;}
+    .bookSection .BottomBlock h1 {width: 45%;}
+    .bookSection .BottomBlock{padding: 20px;width: 90%;}
+    .HotelBlock p {width: 100%;}
+    .IphonImgs {top: 158px;}
+    .FlightBlock, .HotelBlock, .PayBlock, .VisaBlock {width: 40%;}
+    .UpdateSection .block{width: 100%;}
+    
+    .GetAppSection .DownloadIcon {width: 6%;vertical-align: middle;}
+    .GetAppSection h1 {width: auto;}
+    .FooterMenu a {font-size: 15px;padding: 10px 6px;}
+    .SignUpSection .form-inline{text-align: left;}
+}
+@media (max-width : 767px) {
+    body{overflow-x: hidden;}
+    .NavBlock .navbar-nav a{text-align: left;padding-left: 40px;}
+    .Ar{padding-left: 40px !important;}
+    .NavBlock .navbar-right .dropdown-menu a {text-align: left;padding-left: 58px !important;}
+    .navbar-toggle {position: relative;float: right;margin-right: 20px;padding: 0;margin-top: 8px;margin-bottom: 8px;background-color: transparent !important;background-image: none;border: 1px solid transparent !important;border-radius: 4px;}
+    .navbar-toggle span {width: 22px;height: 2px;background-color: #394c70 !important;margin: 6px 0;display: block;transition: all 0.3s ease;-webkit-transition: all 0.3s ease;-moz-transition: all 0.3s ease;cursor: pointer;}
+    .open .icon-bar:nth-child(2) {overflow: visible;height: 100px;display: none;background: transparent;top: -20px;}
+    .open .icon-bar:nth-child(1) {transform: rotate(45deg) translateY(6px) translateX(6px);-webkit-transform: rotate(45deg) translateY(6px) translateX(6px);-moz-transform: rotate(45deg) translateY(6px) translateX(6px);-o-transform: rotate(45deg) translateY(6px) translateX(6px);-ms-transform: rotate(45deg) translateY(6px) translateX(6px);}
+    .open .icon-bar:nth-child(3) {transform: rotate(-45deg) translateY(0px) translateX(0px);-webkit-transform: rotate(-45deg) translateY(0px) translateX(0px);-moz-transform: rotate(-45deg) translateY(0px) translateX(0px);-ms-transform: rotate(-45deg) translateY(0px) translateX(0px);-o-transform: rotate(-45deg) translateY(0px) translateX(0px);}
+    
+    .TopSection .MobileBlock .silver {position: absolute;top: 70px;left: 70px;}
+    .TopSection .txtBlock p {width: 100%;margin-bottom: 25px;}
+    .TopSection {height: 750px;padding-top: 40px;}
+    .paymentSection{padding-top: 0;margin-top: -80px;}
+    
+    .bookSection .MobileBlock:before {top: 55px;left: -60px;width: 200px;height: 350px;}
+    .bookSection .BlackIphone:before {left: -49px;width: 65%;}
+    .bookSection .BlackIphone:after {right: -33px;width: 65%;top: 55px;height: 350px;}
+    
+    .bookSection .BottomBlock h1 {display: block;width: 39%;position: relative;text-align: center;font-size: 31px;}
+    .bookSection .BottomBlock p {width: calc(100% - 18em);}
+    .bookSection .BottomBlock {padding: 10px;width: 95%;}
+    .bookSection .BottomBlock h1 img {margin: 0 auto;}
+    
+    .UpdateSection .block {padding: 30px 0;width: 90%;display: table;margin: 0 auto;}
+    .UpdateSection .block .Img img {position: relative;top: 0;right: 0;width: 100%;}
+    
+    .SignUpSection .SubBtn, .MainBtn {width: 100%;}
+    .GetAppSection .DownloadIcon {width: 40px;float: left;}
+    .GetAppSection h1 {width: calc(100% - 5em);}
+    .GetAppSection a {width: 30%;margin-top: 20px;}
+    
+    footer, .SocialBlock {text-align: center;}
+    .FooterMenu {display: block;margin: 24px 0;}
+    .FooterMenu li,.FooterMenu a{padding: 8px 10px;font-size: 14px;}
+    .SocialBlock a:hover {transform: translateY(0px);}
+    .Num{font-size: 19px;}
+    footer .links{display: block;}
+    footer .links a {font-size: 14px;margin: 0;}
+    
+    .offerSection {padding: 40px 0;}
+    .offerSection .block p:first-child {font-size: 24px;}
+    .offerSection .block .txt {font-size: 50px;}
+    .offerSection .block p {font-size: 20px;}
+    .offerSection .block p {margin: -3px 0 0 0;}
+    .offerSection .MainBtn {margin-top: 30px;}
+    .appSection {padding: 8px 0;}
+    .appSection h1 {font-size: 37px;}
+    .appSection p {font-size: 18px;width: 100%;margin: 22px auto 30px auto;}
+    .PlayBtn {width: 70px;height: 70px;}
+    
+    .featuresApp, .featuresApp .AppBlock{height: 100%;}
+    .IphonImgs{position: relative;top: 0;width: 67%;margin: auto;}
+    
+    .FlightBlock, .HotelBlock, .PayBlock, .VisaBlock{position: relative;top: 0;border: none;width: 100%;}
+    .featuresApp .title {font-size: 35px;margin: 33px 0;}
+    .HotelBlock:after, .PayBlock:before{display: none;}
+    .VisaBlock{margin-top: 0;}
+    .DownloadApp {padding: 30px 0;margin: 35px 0;}
+    .DownloadApp h1 {font-size: 35px;}
+    .DownloadApp p {font-size: 18px;}
+    .DownloadApp a {width: 225px;margin-top: 22px;}
+    .UpdateSection h1 {font-size: 40px;}
+    .UpdateSection p {font-size: 15px;margin-bottom: 15px;}
+    
+    .bookSection .block h1 {font-size: 40px;}
+    .bookSection .block p {font-size: 14px;line-height: 1.5;}
+    
+    .bookSection .MobileBlock, .bookSection .IphoneBlock{position: relative;width: 250px;margin: auto}
+    .bookSection .IphoneBlock .black {position: absolute;top: 62px;left: -66px;}
+    .HotelBlock p{width: 100%;}
+    
+}
+@media (max-width : 600px) {
+    .TopSection {height: 605px;padding-top: 22px;}
+    .TopSection .MobileBlock .silver {position: absolute;top: 50px;left: 50px;}
+    .TopSection .txtBlock h1 {font-size: 30px;line-height: 1;}
+    .TopSection .txtBlock p {width: 100%;margin-bottom: 15px;line-height: 1.55;font-size: 14px;}
+    .TopSection .txtBlock .bottomTxt {position: absolute;top: 315px;}
+    .MainBtn{font-size: 18px;}
+    .TopSection .txtBlock {padding-left: 45px;}
+    
+    .bookSection .MobileBlock, .bookSection .IphoneBlock {position: relative;width: 100px;margin: auto;}
+    .bookSection .MobileBlock:before {top: 23px;left: -28px;width: 77px;height: 140px;}
+    .bookSection .block .txt {width: 60%;}
+    .bookSection .block h1 {font-size: 26px;}
+    .bookSection .BlackIphone:after {right: -30px;width: 77px;top: 23px;height: 140px;}
+    .bookSection .IphoneBlock .black {position: absolute;top: 27px;left: -24px;}
+    .bookSection .BlackIphone:before {top: 23px;left: -35px;width: 77px;height: 140px;}
+    .bookSection .BottomBlock{display: block;}
+    .bookSection .BottomBlock h1{width: 100%;}
+    .bookSection .BottomBlock h1:after{display: none;}
+    .bookSection .BottomBlock p{width: 100%;}
+    .IphonImgs{width: 100%;}
+    .FooterMenu {display: block;margin: 10px 0;}
+}
+@media (max-width : 480px){
+    .TopSection .MobileBlock {width: 75px;}
+    .TopSection .MobileBlock .silver {position: absolute;top: 20px;left: 21px;}
+    .TopSection .txtBlock {padding-left: 0;}
+    .TopSection .txtBlock h1 {font-size: 22px;margin-bottom: 16px;margin-top: 0;}
+    .TopSection .txtBlock p {margin-bottom: 15px;font-size: 13px;    line-height: 1.3;}
+    .MainBtn {font-size: 14px;padding: 5px 0;}
+    .TopSection .txtBlock .bottomTxt {position: absolute;top: 260px;}
+    .TopSection {height: 475px;}
+    .paymentSection .title {font-size: 16px;margin: 12px 0px;}
+    .paymentSection p {font-size: 14px;line-height: 1.5;color: #333333;}
+    .bookSection .block {padding: 10px 0;}
+    .bookSection .MobileBlock, .bookSection .IphoneBlock {width: 75px;margin: auto;}
+    .bookSection .MobileBlock:before {top: 19px;left: -18px;width: 55px;height: 105px;}
+    .bookSection .BlackIphone:after {    right: -19px;top: 19px;width: 55px;height: 105px;}
+    .bookSection .BlackIphone:before{top: 19px;left: -28px;}
+    .GetAppSection a {width: 40%;}
+}
+@media (max-width :320px){
+    .GetAppSection ul li {font-size: 17px;margin-bottom: 20px;}
+    .GetAppSection h1 {width: calc(100% - 3em);font-size: 26px;}
+    .Num {font-size: 18px;}
+}
